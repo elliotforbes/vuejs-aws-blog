@@ -1,1 +1,2 @@
 echo 'functions'
+npm -version
