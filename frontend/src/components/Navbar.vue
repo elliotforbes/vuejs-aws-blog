@@ -1,5 +1,5 @@
 <template>
-  <!-- <div class="header-wrapper">
+  <div class="header-wrapper">
     <div class="navbar">
       <div>
         <a href="#" class="brand">Perfect Party Ideas </a>
@@ -17,7 +17,7 @@
         <a href="#">Weddings</a>
       </div>
     </div>
-  </div> -->
+  </div>
 </template>
 
 <script>
