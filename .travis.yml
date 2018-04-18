@@ -14,6 +14,6 @@ script:
 jobs:
   include:
     - stage: deploy_functions
-      script: deploy/functions
+      script: ./deploy/functions.sh
     - stage: deploy_frontend
-      script: deploy/frontend
+      script: ./deploy/frontend.sh
