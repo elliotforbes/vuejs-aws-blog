@@ -1,0 +1,19 @@
+language: node_js
+
+node_js:
+- node
+
+cache:
+  directories:
+    - node_modules
+
+script: 
+  - npm install -g serverless
+  - serverless deploy
+
+jobs:
+  include:
+    - stage: deploy_functions
+      script: deploy/functions
+    - stage: deploy_frontend
+      script: deploy/frontend
